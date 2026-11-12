@@ -2,13 +2,13 @@
   "schema_version": "skill-file-manifest-v1",
   "name": "sean",
   "edition": "public-sanitized",
-  "version": "0.2.0-public",
+  "version": "0.3.0-public",
   "path_base": "skills/sean",
   "files": [
     {
       "path": "ARCHITECTURE.md",
-      "bytes": 2459,
-      "sha256": "77535e5383a783f4ec61e14f9b1776a7abab7c42e530f0030591bc766e6016e1"
+      "bytes": 2479,
+      "sha256": "82ae877d7d00da99e77e2c1f02fd5e90645fb04d5131aae1dd22b72dff0735b5"
     },
     {
       "path": "LICENSE",
@@ -17,18 +17,13 @@
     },
     {
       "path": "SKILL.md",
-      "bytes": 3267,
-      "sha256": "866b3744fbafc535ee67932b8ecca2978e115ff2284c3fb419eeed564d9f918a"
-    },
-    {
-      "path": "agents/openai.yaml",
-      "bytes": 367,
-      "sha256": "4bfbd811cff583d9f2539552b20efa26f1c5cb7279888140be6fed2e6cab00b8"
+      "bytes": 3381,
+      "sha256": "fb118c8d8cc4bd3525148e7877cde80deac1f09d467942927b952752c44adcc4"
     },
     {
       "path": "evidence/README.md",
       "bytes": 944,
-      "sha256": "f0739d24be6ac239db87ddce4f178b3617f3440a29b778a978ebb66867aa15bd"
+      "sha256": "8ef745302b21d54f5495139df43ae1bae69d08a2124d0f1271eb33e5b5ce8a00"
     },
     {
       "path": "evidence/public-examples.md",
@@ -37,13 +32,13 @@
     },
     {
       "path": "evidence/public-records.jsonl",
-      "bytes": 12710,
-      "sha256": "650be852e05f94a2fbccaccbc94515fd2521966c488d4f1a9c0d080b6a0504bd"
+      "bytes": 15324,
+      "sha256": "3edcca6a4a94a71a1ba438552e9d1e07cfd09542e4deec0b99a8bf392ceeebea"
     },
     {
       "path": "references/ethics.md",
-      "bytes": 1640,
-      "sha256": "49310a09e6dc6bf8519a50d5ee635b07ee62fd30f63a83337bff7e24bef6ad98"
+      "bytes": 1794,
+      "sha256": "7e50de2646c58ef1e9f35d84c5babfb1be0dbcb48b490bf7ac55a34412359423"
     },
     {
       "path": "references/evidence.md",
@@ -56,9 +51,14 @@
       "sha256": "652b6081d969accf4ce2eee39bd3d01febe7f96bb60f94d43f24b8577b8e33d1"
     },
     {
+      "path": "references/institutions.md",
+      "bytes": 3084,
+      "sha256": "b05263b8be1a6102148e085c60cc0a0269c9a7ad796a05e7c0cd789e7180c076"
+    },
+    {
       "path": "references/preferences.md",
-      "bytes": 2449,
-      "sha256": "a32daa4c0c8e2c8b35fbb518bfbfebf5c7c877446d6f6a948bebb1a1194a7d10"
+      "bytes": 2668,
+      "sha256": "af93bcfe6f63d68ffbff02bd77d11f79231d407c8021824e79db10dac0e0a141"
     },
     {
       "path": "references/profile.md",
@@ -82,8 +82,8 @@
     },
     {
       "path": "routes/ethics.md",
-      "bytes": 1649,
-      "sha256": "0e58deae66a7d080c1c6266cc5ba424356643db8674b219e7962415081becafe"
+      "bytes": 1868,
+      "sha256": "9ebb12b21b87a6cfdd9bb6da323c63b65cef586243b4d790918c99f0c9c738f7"
     },
     {
       "path": "routes/express.md",
@@ -92,15 +92,13 @@
     },
     {
       "path": "routes/inquire.md",
-      "bytes": 1650,
-      "sha256": "1323fc8ee1b230aa5dc6b250b4733b55f5b6caed5bae669c7ff1f9290196a136"
+      "bytes": 2010,
+      "sha256": "23c7775c2b919f6a34eb8c0b375d1434aed24eedf1aa8fb8f2d99e4634fc3684"
     },
     {
       "path": "routes/reflect.md",
       "bytes": 1735,
       "sha256": "80808f8e49744393d0c2c2d837625651a1f8d5ccd3d8da35e19f7860b6ea05ad"
     }
-  ],
-  "license": "MIT",
-  "copyright": "Copyright (c) 2026 Dying-Ember"
+  ]
 }

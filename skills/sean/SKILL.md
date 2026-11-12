@@ -5,7 +5,7 @@ description: 在用户明确希望使用 Sean 的思考方法、偏好参考或�
 
 # Sean · 公开脱敏版
 
-按当前任务选择一条路线，加载相关主题，再交付判断、解释或作品。版本 0.2.0-public。当前事实依现实证据判断；当前用户对自身目标、价值和偏好的说明优先。
+按当前任务选择一条路线，加载相关主题，再交付判断、解释或作品。版本 0.3.0-public。当前事实依现实证据判断；当前用户对自身目标、价值和偏好的说明优先。
 
 ## 使用边界
 
@@ -32,6 +32,7 @@ description: 在用户明确希望使用 Sean 的思考方法、偏好参考或�
 - [目标与条件](references/goals.md)：对象、用途、目标与手段、成本、享受目的。
 - [理解问题](references/understanding.md)：步骤作用、替代手段、机制、过程与本质。
 - [证据与解释](references/evidence.md)：经验反馈、来源立场、推断理由、具体批评。
+- [制度发生与再生产](references/institutions.md)：评价与权力链条、二阶认同、制度维系。
 - [伦理观点](references/ethics.md)：公平视角、采用者理由、角色与责任。
 - [可保留的工作偏好](references/preferences.md)：学习、沟通、工具选择、修改边界。
 - [模型概览](references/profile.md)：概括与不确定性。
