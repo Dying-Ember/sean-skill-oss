@@ -1,0 +1,106 @@
+{
+  "schema_version": "skill-file-manifest-v1",
+  "name": "sean",
+  "edition": "public-sanitized",
+  "version": "0.2.0-public",
+  "path_base": "skills/sean",
+  "files": [
+    {
+      "path": "ARCHITECTURE.md",
+      "bytes": 2459,
+      "sha256": "77535e5383a783f4ec61e14f9b1776a7abab7c42e530f0030591bc766e6016e1"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1068,
+      "sha256": "d99f6e98778c8711f72ef575c5764a36c2a7301041286bf3377c5c56c0a627f8"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 3267,
+      "sha256": "866b3744fbafc535ee67932b8ecca2978e115ff2284c3fb419eeed564d9f918a"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 367,
+      "sha256": "4bfbd811cff583d9f2539552b20efa26f1c5cb7279888140be6fed2e6cab00b8"
+    },
+    {
+      "path": "evidence/README.md",
+      "bytes": 944,
+      "sha256": "f0739d24be6ac239db87ddce4f178b3617f3440a29b778a978ebb66867aa15bd"
+    },
+    {
+      "path": "evidence/public-examples.md",
+      "bytes": 1864,
+      "sha256": "0a075787c0d9a058178428897878d5308b9d05f77e47b26c4587b4159c994d5b"
+    },
+    {
+      "path": "evidence/public-records.jsonl",
+      "bytes": 12710,
+      "sha256": "650be852e05f94a2fbccaccbc94515fd2521966c488d4f1a9c0d080b6a0504bd"
+    },
+    {
+      "path": "references/ethics.md",
+      "bytes": 1640,
+      "sha256": "49310a09e6dc6bf8519a50d5ee635b07ee62fd30f63a83337bff7e24bef6ad98"
+    },
+    {
+      "path": "references/evidence.md",
+      "bytes": 1114,
+      "sha256": "882ecd589773443198fc02041d6791c8dc432ccf023d8c9f4cdb06da0e9fa2fc"
+    },
+    {
+      "path": "references/goals.md",
+      "bytes": 1308,
+      "sha256": "652b6081d969accf4ce2eee39bd3d01febe7f96bb60f94d43f24b8577b8e33d1"
+    },
+    {
+      "path": "references/preferences.md",
+      "bytes": 2449,
+      "sha256": "a32daa4c0c8e2c8b35fbb518bfbfebf5c7c877446d6f6a948bebb1a1194a7d10"
+    },
+    {
+      "path": "references/profile.md",
+      "bytes": 1160,
+      "sha256": "68651638c7432ea1af3ba1de6346ac700dd8d15078cd8bdd6dde9072b29b1b79"
+    },
+    {
+      "path": "references/trace.md",
+      "bytes": 1309,
+      "sha256": "db94aa5343704d395b997d66030f139028b418ff4c73b5e0fa775df0830a310e"
+    },
+    {
+      "path": "references/understanding.md",
+      "bytes": 1320,
+      "sha256": "8c17bf5f02eb0ec3ae65a7a00fb52ca5e659d34870b18c4168ccca25ee5a1099"
+    },
+    {
+      "path": "routes/decide.md",
+      "bytes": 1829,
+      "sha256": "026bc8a17d98eb2abbe5885a4c61bf18f54f29001cc80f5b1d5b2adddc688187"
+    },
+    {
+      "path": "routes/ethics.md",
+      "bytes": 1649,
+      "sha256": "0e58deae66a7d080c1c6266cc5ba424356643db8674b219e7962415081becafe"
+    },
+    {
+      "path": "routes/express.md",
+      "bytes": 1489,
+      "sha256": "ef1a23f328d5aca30c5382ed935e3a1d3277ff6ccd8590b384cb35f7d5505201"
+    },
+    {
+      "path": "routes/inquire.md",
+      "bytes": 1650,
+      "sha256": "1323fc8ee1b230aa5dc6b250b4733b55f5b6caed5bae669c7ff1f9290196a136"
+    },
+    {
+      "path": "routes/reflect.md",
+      "bytes": 1735,
+      "sha256": "80808f8e49744393d0c2c2d837625651a1f8d5ccd3d8da35e19f7860b6ea05ad"
+    }
+  ],
+  "license": "MIT",
+  "copyright": "Copyright (c) 2026 Dying-Ember"
+}
