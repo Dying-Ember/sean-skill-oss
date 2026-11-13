@@ -62,6 +62,7 @@ ALLOWED_RELEASE_FILES = {
     'skills/sean/evidence/public-examples.md',
     'skills/sean/evidence/public-records.jsonl',
     'skills/sean/references/institutions.md',
+    'skills/sean/references/judgment-method.md',
     'skills/sean/references/ethics.md',
     'skills/sean/references/evidence.md',
     'skills/sean/references/goals.md',
@@ -92,8 +93,8 @@ if actual_names != ALLOWED_RELEASE_FILES:
 
 skill_manifest = check_manifest('skill-manifest.json', SKILL)
 check_manifest('release-manifest.json', ROOT, ('release-manifest.json',))
-if skill_manifest.get('version') != '0.3.0-public' or len(skill_manifest.get('files', [])) != 19:
-    fail('Expected version 0.3.0-public and 19 skill files')
+if skill_manifest.get('version') != '0.3.1-public' or len(skill_manifest.get('files', [])) != 20:
+    fail('Expected version 0.3.1-public and 20 skill files')
 # Keep the authorized MIT notice intact, including in the installable skill.
 expected_license_sha256 = 'd99f6e98778c8711f72ef575c5764a36c2a7301041286bf3377c5c56c0a627f8'
 for license_path in (ROOT/'LICENSE', SKILL/'LICENSE'):
@@ -169,21 +170,21 @@ for relative, path in all_files.items():
 entry = (SKILL/'SKILL.md').read_text(encoding='utf-8')
 if not entry.startswith('---\nname: sean\ndescription: ') or '\n---\n' not in entry[4:]:
     fail('Invalid skill frontmatter')
-if len(list((SKILL/'routes').glob('*.md'))) != 5 or len(list((SKILL/'references').glob('*.md'))) != 8:
-    fail('Expected 5 routes and 8 reference files')
+if len(list((SKILL/'routes').glob('*.md'))) != 5 or len(list((SKILL/'references').glob('*.md'))) != 9:
+    fail('Expected 5 routes and 9 reference files')
 examples = (SKILL/'evidence/public-examples.md').read_text(encoding='utf-8')
 if re.findall(r'^## (E\d{2})：', examples, flags=re.M) != [f'E{x:02}' for x in range(1, 6)]:
     fail('Expected 5 numbered public examples')
 try:
     scenarios = json.loads((ROOT/'tests/scenarios.json').read_text(encoding='utf-8'))
-    if scenarios.get('automated_model_test') is not False or len(scenarios.get('scenarios', [])) != 13:
-        fail('Expected 13 manual model behavior scenarios')
+    if scenarios.get('automated_model_test') is not False or len(scenarios.get('scenarios', [])) != 18:
+        fail('Expected 18 manual model behavior scenarios')
 except (OSError, ValueError) as exc:
     fail(f'Cannot parse scenarios: {exc}')
 if errors:
     print('FAIL\n' + '\n'.join('- ' + e for e in errors))
     sys.exit(1)
-print(f'PASS: {len(all_files)} release files; 19 skill files; 36 public records; 5 examples; 13 behavior scenarios')
+print(f'PASS: {len(all_files)} release files; 20 skill files; 36 public records; 5 examples; 18 behavior scenarios')
 print(f'PASS: inventory, SHA-256, record schema, {link_count} local links and {reference_count} record references')
 print('PASS: no original evidence files, forbidden fields, private locators or common secret patterns detected')
 print('LIMIT: structural checks are not a semantic privacy guarantee or a live-host/model behavior test')

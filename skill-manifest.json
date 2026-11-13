@@ -2,13 +2,13 @@
   "schema_version": "skill-file-manifest-v1",
   "name": "sean",
   "edition": "public-sanitized",
-  "version": "0.3.0-public",
+  "version": "0.3.1-public",
   "path_base": "skills/sean",
   "files": [
     {
       "path": "ARCHITECTURE.md",
-      "bytes": 2479,
-      "sha256": "82ae877d7d00da99e77e2c1f02fd5e90645fb04d5131aae1dd22b72dff0735b5"
+      "bytes": 4040,
+      "sha256": "997534e7ac2661b3b194026aaf08ee1b57def52ea8165ed5fc00d37aad85def4"
     },
     {
       "path": "LICENSE",
@@ -17,8 +17,8 @@
     },
     {
       "path": "SKILL.md",
-      "bytes": 3381,
-      "sha256": "fb118c8d8cc4bd3525148e7877cde80deac1f09d467942927b952752c44adcc4"
+      "bytes": 4835,
+      "sha256": "0fc74f3bb31a266d7aaaa6f1d5eb0eb960c694109382bd750e64a5ac9637c50d"
     },
     {
       "path": "evidence/README.md",
@@ -56,14 +56,19 @@
       "sha256": "b05263b8be1a6102148e085c60cc0a0269c9a7ad796a05e7c0cd789e7180c076"
     },
     {
+      "path": "references/judgment-method.md",
+      "bytes": 2208,
+      "sha256": "6e610b39e6829dfe25020e3d0cadd4926b64ba6508cabd95d5b1984aaa36f342"
+    },
+    {
       "path": "references/preferences.md",
       "bytes": 2668,
       "sha256": "af93bcfe6f63d68ffbff02bd77d11f79231d407c8021824e79db10dac0e0a141"
     },
     {
       "path": "references/profile.md",
-      "bytes": 1160,
-      "sha256": "68651638c7432ea1af3ba1de6346ac700dd8d15078cd8bdd6dde9072b29b1b79"
+      "bytes": 1403,
+      "sha256": "14c85d02c56dbaf709fc1ffafe9cc731486381f03957c99f9043365a84101b48"
     },
     {
       "path": "references/trace.md",
@@ -77,28 +82,28 @@
     },
     {
       "path": "routes/decide.md",
-      "bytes": 1829,
-      "sha256": "026bc8a17d98eb2abbe5885a4c61bf18f54f29001cc80f5b1d5b2adddc688187"
+      "bytes": 2127,
+      "sha256": "5b66f324b0480509cfd1a41e8e7ca832220327c70870bf04a46a9a7d7cd34c9a"
     },
     {
       "path": "routes/ethics.md",
-      "bytes": 1868,
-      "sha256": "9ebb12b21b87a6cfdd9bb6da323c63b65cef586243b4d790918c99f0c9c738f7"
+      "bytes": 2181,
+      "sha256": "b483a99da428571adaab282cd7df5a995d9f656dd0a1afc5719a10a1a3bf466d"
     },
     {
       "path": "routes/express.md",
-      "bytes": 1489,
-      "sha256": "ef1a23f328d5aca30c5382ed935e3a1d3277ff6ccd8590b384cb35f7d5505201"
+      "bytes": 1787,
+      "sha256": "15b14c76c0fb0c1bc6ebe387e54bda8d8469d00494584e2f30fc79b9c589d07c"
     },
     {
       "path": "routes/inquire.md",
-      "bytes": 2010,
-      "sha256": "23c7775c2b919f6a34eb8c0b375d1434aed24eedf1aa8fb8f2d99e4634fc3684"
+      "bytes": 2284,
+      "sha256": "c03ef58e765d6fa707a88723c0edd18c9a1cdba606ebb69ca1b950bc1d35ad89"
     },
     {
       "path": "routes/reflect.md",
-      "bytes": 1735,
-      "sha256": "80808f8e49744393d0c2c2d837625651a1f8d5ccd3d8da35e19f7860b6ea05ad"
+      "bytes": 2111,
+      "sha256": "8615871e9f7437c0275d4f5a26caba758e35b1de2f96a55c8248f666e19a42de"
     }
   ]
 }
